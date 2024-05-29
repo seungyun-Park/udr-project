@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/seungyun-Park/udr-project/static/css/main.f855e6bc.css",
+    "main.js": "/seungyun-Park/udr-project/static/js/main.a72b127b.js",
+    "static/js/488.21790ccd.chunk.js": "/seungyun-Park/udr-project/static/js/488.21790ccd.chunk.js",
+    "static/media/고려대배너.jpg": "/seungyun-Park/udr-project/static/media/고려대배너.e1effdd32f468a014169.jpg",
+    "index.html": "/seungyun-Park/udr-project/index.html",
+    "main.f855e6bc.css.map": "/seungyun-Park/udr-project/static/css/main.f855e6bc.css.map",
+    "main.a72b127b.js.map": "/seungyun-Park/udr-project/static/js/main.a72b127b.js.map",
+    "488.21790ccd.chunk.js.map": "/seungyun-Park/udr-project/static/js/488.21790ccd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.a72b127b.js"
+  ]
+}
