@@ -9,7 +9,6 @@
     "axios": "^1.7.2",
     "base-64": "^1.0.0",
     "eslint-config-react-app": "^7.0.1",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
@@ -41,6 +40,7 @@
   "proxy": "http://localhost:3001",
   "homepage": "https://github.com/seungyun-Park/udr-project/",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "web-vitals": "^4.0.1"
   }
 }
