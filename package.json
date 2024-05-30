@@ -40,6 +40,7 @@
   "proxy": "http://localhost:3001",
   "homepage": "https://seungyun-park.github.io/udr-project/",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "web-vitals": "^4.0.1"
   }
 }
