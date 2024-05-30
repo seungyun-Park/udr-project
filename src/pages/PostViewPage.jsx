@@ -384,7 +384,7 @@ function PostViewPage() {
                         <IconWrapper>
                             <FiShare2 
                             size='24px'
-                            onClick={() => handleCopyClipBoard(`${process.env.PUBLIC_URL}${location.pathname}`)}
+                            onClick={() => handleCopyClipBoard(`${baseURL}${location.pathname}`)}
                             title="공유하기"
                             />
                         </IconWrapper>
