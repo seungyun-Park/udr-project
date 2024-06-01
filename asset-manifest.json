@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/udr-project/static/css/main.f855e6bc.css",
-    "main.js": "/udr-project/static/js/main.7d499023.js",
+    "main.js": "/udr-project/static/js/main.f1a1fe71.js",
     "static/js/488.21790ccd.chunk.js": "/udr-project/static/js/488.21790ccd.chunk.js",
     "static/media/KULOGO.png": "/udr-project/static/media/KULOGO.c180c049d77f64badae2.png",
     "static/media/신문고배너.png": "/udr-project/static/media/신문고배너.24b4af213054dbbb8b62.png",
     "static/media/no_image.png": "/udr-project/static/media/no_image.4ca53b4adecc1d3c90e7.png",
     "index.html": "/udr-project/index.html",
     "main.f855e6bc.css.map": "/udr-project/static/css/main.f855e6bc.css.map",
-    "main.7d499023.js.map": "/udr-project/static/js/main.7d499023.js.map",
+    "main.f1a1fe71.js.map": "/udr-project/static/js/main.f1a1fe71.js.map",
     "488.21790ccd.chunk.js.map": "/udr-project/static/js/488.21790ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.7d499023.js"
+    "static/js/main.f1a1fe71.js"
   ]
 }
