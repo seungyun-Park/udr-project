@@ -84,7 +84,7 @@ function ReportPage() {
   const fetchPosts = async (keyword = '', board = 'report', page = 1) => {
     try {
       const endpoint = keyword ? 'search' : 'report';
-      const response = await axios.get(`http://localhost:3001/board/${endpoint}`, {
+      const response = await axios.get(`https://udr.wild2.duckdns.org/board/${endpoint}`, {
         params: {
           query: keyword,
           page: page,

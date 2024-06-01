@@ -135,7 +135,7 @@ function MyInfoPage() {
   useEffect(() => {
     const loadInfo = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/user', {
+        const response = await axios.get('https://udr.wild2.duckdns.org/user', {
           params: {
             userid: dec.id, 
           },
@@ -162,7 +162,7 @@ function MyInfoPage() {
     const confirmDelete = window.confirm('정보를 수정하시겠습니까?');
     if (confirmDelete) {
     try {
-      const response = await axios.put('http://localhost:3001/updateUser', {
+      const response = await axios.put('https://udr.wild2.duckdns.org/updateUser', {
         userid : dec.id,
         username: username,
         pw: pw,
@@ -184,7 +184,7 @@ function MyInfoPage() {
     const confirmDelete = window.confirm('정말 탈퇴하시겠습니까?');
     if (confirmDelete) {
       try {
-        const response = await axios.delete('http://localhost:3001/user', {
+        const response = await axios.delete('https://udr.wild2.duckdns.org/user', {
           data: { id: dec.id }
         });
         if (response.status === 200) {

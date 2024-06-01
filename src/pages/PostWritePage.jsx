@@ -56,7 +56,7 @@ function PostWritePage(props) {
         event.preventDefault();
 
         try {
-            const response = await axios.post("http://localhost:3001/board/create", {
+            const response = await axios.post("https://udr.wild2.duckdns.org/board/create", {
                 title,
                 content,
                 category: boardType,

@@ -57,7 +57,7 @@ function SummaryBoard({ postwhat, link, title }) {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/homepage`, {
+        const response = await axios.get(`https://udr.wild2.duckdns.org/homepage`, {
           params: { category: postwhat }
         });
         setPosts(response.data.filteredPosts);

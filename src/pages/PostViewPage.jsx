@@ -189,7 +189,7 @@ function PostViewPage() {
 
     const fetchPost = async () => {
         try {
-            const response = await axios.get(`http://localhost:3001/board/view/${postId}`, {
+            const response = await axios.get(`https://udr.wild2.duckdns.org/board/view/${postId}`, {
                 params:{
                     userid: dec.id,
                 },
@@ -223,7 +223,7 @@ function PostViewPage() {
         if (confirmDelete) {
         try {
             console.log(postId);
-            const response = await axios.delete(`http://localhost:3001/post/${postId}`, {
+            const response = await axios.delete(`https://udr.wild2.duckdns.org/post/${postId}`, {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem("token")}`
                 }
@@ -244,7 +244,7 @@ function PostViewPage() {
     const handleRecommendation = async () => {
         try {
             const response = await axios.post(
-                `http://localhost:3001/board/recommend/${postId}`,
+                `https://udr.wild2.duckdns.org/board/recommend/${postId}`,
                 {},
                 {
                     params: { // 쿼리 파라미터로 userid 전달
@@ -264,7 +264,7 @@ function PostViewPage() {
     const handleVote = async () => {
         try {
             const response = await axios.post(
-                `http://localhost:3001/board/vote/${postId}`,
+                `https://udr.wild2.duckdns.org/board/vote/${postId}`,
                 { userid: dec.id, checked: checkValue },
                 {
                     headers: {
@@ -287,7 +287,7 @@ function PostViewPage() {
 
         try {
             const response = await axios.post(
-                `http://localhost:3001/board/reported/${postId}`,
+                `https://udr.wild2.duckdns.org/board/reported/${postId}`,
                 {}, 
                 {
                     params: {
@@ -308,7 +308,7 @@ function PostViewPage() {
     const handleComment = async () => {
         try {
             const response = await axios.post(
-                `http://localhost:3001/board/comment/${postId}`,
+                `https://udr.wild2.duckdns.org/board/comment/${postId}`,
                 {},
                 {
                     params: { 

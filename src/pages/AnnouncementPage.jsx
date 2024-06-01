@@ -89,7 +89,7 @@ function AnnouncementPage() {
   const fetchPosts = async (keyword = '', board = 'announce', page = 1) => {
     try {
       const endpoint = keyword ? 'search' : 'announce';
-      const response = await axios.get(`http://localhost:3001/board/${endpoint}`, {
+      const response = await axios.get(`https://udr.wild2.duckdns.org/board/${endpoint}`, {
         params: {
           query: keyword,
           page: page,

@@ -67,7 +67,7 @@ function PostEditPage() {
     useEffect(() => {
         const fetchPost = async () => {
             try {
-                const response = await axios.get(`http://localhost:3001/board/view/${postId}`,
+                const response = await axios.get(`https://udr.wild2.duckdns.org/board/view/${postId}`,
                 {
                     params: {
                         userid: dec.id,
@@ -91,7 +91,7 @@ function PostEditPage() {
 
     const handleSave = async () => {
         try {
-            const response = await axios.put(`http://localhost:3001/post/${postId}`, {
+            const response = await axios.put(`https://udr.wild2.duckdns.org/post/${postId}`, {
                 title,
                 content
             }, {

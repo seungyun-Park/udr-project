@@ -87,7 +87,7 @@ function MyRecommendPage() {
   const fetchPosts = async (keyword = '', board = 'myrecommend', page = 1) => {
     try {
       const endpoint = keyword ? 'search' : 'myrecommend';
-      const response = await axios.get(`http://localhost:3001/board/${endpoint}`, {
+      const response = await axios.get(`https://udr.wild2.duckdns.org/board/${endpoint}`, {
         params: {
           query: keyword,
           page: page,

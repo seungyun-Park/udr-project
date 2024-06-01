@@ -84,7 +84,7 @@ function ComplainPage(){
   const fetchPosts = async (keyword = '', board = 'complain', page = 1) => {
     try {
       const endpoint = keyword ? 'search' : 'complain';
-      const response = await axios.get(`http://localhost:3001/board/${endpoint}`, {
+      const response = await axios.get(`https://udr.wild2.duckdns.org/board/${endpoint}`, {
         params: {
           query: keyword,
           page: page,

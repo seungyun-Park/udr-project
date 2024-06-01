@@ -104,7 +104,7 @@ function SignUpPage() {
     }
 
     try {
-      const response = await axios.post('http://localhost:3001/signup', {
+      const response = await axios.post('https://udr.wild2.duckdns.org/signup', {
         username: NickName,
         userid: Id,
         pw: Password,

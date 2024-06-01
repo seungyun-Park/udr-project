@@ -75,7 +75,7 @@ function LoginPage(){
   
       try {
           const response = await axios.post(
-              "http://localhost:3001/login",
+              "https://udr.wild2.duckdns.org/login",
               {
                   userid: ID,
                   password: Password,
