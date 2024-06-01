@@ -99,7 +99,7 @@ function SignUpPage() {
     e.preventDefault();
 
     if (!Agree) {
-      alert('Please agree to the terms and conditions');
+      alert('개인정보 수집 정책에 동의해주세요');
       return;
     }
 

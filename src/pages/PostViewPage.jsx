@@ -396,12 +396,13 @@ function PostViewPage() {
                         </IconWrapper>
                     </IconContainer>
                 </PostHeader>
-                
+                {post.image &&
                 <img 
-                    src={ post.image ? `data:image/jpeg;base64,${post.image}` : noImage} 
+                    src={`data:image/jpeg;base64,${post.image}`} 
                     alt="image" 
                     style={{ width: '100%', maxHeight: '300px', objectFit: 'contain' }} 
                 />
+                }
                 <ContentText>{post.content}</ContentText>
 
                 {(isAuthor || dec.isAdmin) && (
